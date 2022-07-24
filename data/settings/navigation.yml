@@ -2,4 +2,5 @@ nav_items:
   - {label: 'Нүүр хуудас', path: '/'}
   - {label: 'Материал нийлүүлэлт', path: '/products/'}
   - {label: 'Төсөл', path: '/news/'}
+  - {label: 'Бидний тухай', path: '/About/'}
 
