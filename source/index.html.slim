@@ -38,7 +38,7 @@ section.homepage-about.about
   .container
     h2
       | ТӨСӨЛ
-    .news-items
+    .about-items
       //get the first two most recent posts
       - blog.articles.first(2).each do | article |
         = partial 'partials/about/about_item', locals: {article: article}
