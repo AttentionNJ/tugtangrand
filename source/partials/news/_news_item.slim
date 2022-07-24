@@ -1,6 +1,9 @@
 article.news-item
   .row
     .image
+      - if article.data.image
+        = link_to article
+          = image_tag article.data.image
 
           .date
             //make sure the article date is actually a date
@@ -9,5 +12,9 @@ article.news-item
 
     .content
       .wrapper
+        = link_to article
+          h3 = article.data.title
+        
+        p = article.data.description
 
         = link_to 'Read the story', article, class: 'cta'
