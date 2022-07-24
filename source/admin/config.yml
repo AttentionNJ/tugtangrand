@@ -72,15 +72,3 @@ collections:
       - file: data/settings/units.yml
         label: Units
         name: units
-        fields:
-          - label: Currency
-            name: currency
-            widget: select
-            options: ['€', '$', '£']
-            default: '€'
-
-          - label: Weight
-            name: weight
-            widget: select
-            options: ['kg', ' st', ' lb']
-            default: 'kg'
