@@ -1,5 +1,5 @@
 nav_items: 
-  - {label: 'Нүүр', path: '/'}
-  - {label: 'Products', path: '/products/'}
-  - {label: 'News', path: '/news'}
+  - {label: 'Нүүр хуудас', path: '/'}
+  - {label: 'Материал нийлүүлэлт', path: '/products/'}
+  - {label: 'Төсөл', path: '/news'}
 
