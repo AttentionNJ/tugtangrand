@@ -5,11 +5,6 @@ article.news-item
         = link_to article
           = image_tag article.data.image
 
-          .date
-            //make sure the article date is actually a date
-            - date = Date.parse article.data.date.to_s
-            span = date.strftime("%d-%m-%Y")
-
     .content
       .wrapper
         = link_to article
@@ -17,4 +12,3 @@ article.news-item
         
         p = article.data.description
 
-        = link_to 'Read the story', article, class: 'cta'
